@@ -2,8 +2,8 @@
   speaker:
     - name: "Yukihiro Matsumoto (Matz)"
       avatar: "/assets/speaker_avatars/matz.jpg"
-  time: 16:00 pm
-  end: 16:30 pm
+  time: 16:10 pm
+  end: 17:10 pm
   description_en: |-
     
   description_zh: |-
@@ -136,45 +136,6 @@
   description_zh: |-
      回顧從學習 Ruby 和 Ruby On Rails 開始轉職，以遊戲設計師的經歷踏入軟體開發者的世界。再因應工作需求轉換語言到 Python 開發企業級電子交換系統的心路歷程分享。 此次分享適合想踏入程式開發或剛踏入不久的你。
 
-- id: 11
-  day: 1
-  time: 15:00 pm
-  end: 15:10 pm
-  title: Break
-
-- id: 12
-  day: 1
-  time: 15:10 pm
-  end: 15:50 pm
-  agenda: 6
-  subtitle: "Ruby on Rails 老司機帶飛"
-  title_main: "An experienced Rails driver takes you fly"
-  speaker:
-    - name: "ihower"
-      avatar: "/assets/speaker_avatars/ihower.jpg"
-  lang: "zh"
-  description_en: |-
-    An experienced developer(15y) shares his Rails project experience for small team. Topics including:
-    <li>Legacy project refactorings</li>
-    <li>Long-term project maintenance </li>
-    <li>Rails monolith </li>
-    <li>Integrate with Vue.js</li>
-    <li>Useful Rails Tips and Gems</li>
-    <li>Small team development flow, code review, git</li>
-    <li>Testing and QA</li>
-    <li>Production and Development</li>
-  description_zh: |-
-    從 Rails 1.1 用到 Rails 6.1，年資 15 年的 Ruby & Rails developer 分享一路走來的個人和小型團隊開發 Rails 專案的經驗，包括:
-    <li>接手舊專案改造再生</li>
-    <li>長期(10年以上)專案維護</li>
-    <li>Rails monolith 單體精神</li>
-    <li>現代前端(Vue.js)的整合方式</li>
-    <li>各種有用的 Rails Tips 和 gems 套件</li>
-    <li>小團隊高效率開發流程、Code Review、Git 版控方式等</li>
-    <li>前端套版方式，不同情況不同手法</li>
-    <li>自動化測試和QA</li>
-    <li>上 Production 要注意的事情</li>
-
 - id: 13
   day: 2
   time: 10:00 am
@@ -256,7 +217,7 @@
   speaker:
     - name: "John Lin"
       avatar: "/assets/speaker_avatars/johnlinvc.jpg"
-  lang: 'en'
+  lang: 'zh'
   description_en: |-
     Deployment is one of the biggest issue when developing tools with Ruby. Due to the interpreter nature of Ruby, we need to bundle interpreter and all dependencies with our code when deploying. It's troublesome to deploy tons of stuffs. Is there a better way to deploy?
     This talk will introduce mruby, a Ruby that's designed to be embedded into other programs. And show how to write multi-platform single binary tool with mruby.
