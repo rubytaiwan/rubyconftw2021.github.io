@@ -1,4 +1,5 @@
 body {
+  font-family: "Marmelad", sans-serif;
   background-color: #fad9c7 !important;
   /* prevent bootstrap add overflow and padding when open modals*/
   overflow-y: scroll !important;
@@ -8,13 +9,14 @@ body {
   width: 33vw !important;
 }
 
-#logo-container, .home-text, .home-order-2 {
-  z-index: 300!important;
+#logo-container,
+.home-text {
+  z-index: 300 !important;
 }
 
 .bg-img {
   position: absolute !important;
-  height: 100vh!important;
+  height: 100vh !important;
 }
 #bg {
   background-image: url(bg.svg);
@@ -149,8 +151,8 @@ body {
   background-repeat: no-repeat;
 }
 
-#News{
-  margin-top: 5%!important;
+#News {
+  margin-top: 5% !important;
 }
 
 #news-container {
@@ -197,6 +199,60 @@ a:hover {
   font-size: 25px;
 }
 
+.home-btn {
+  font-family: "Marmelad", sans-serif;
+  font-size: 20px !important;
+  border-radius: 30px !important;
+  color: #fad9c7 !important;
+  background: rgb(222, 45, 44);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 45, 44, 1) 0%,
+    rgba(229, 100, 84, 1) 100%
+  );
+  transition: color border 0.5s !important;
+}
+
+.home-btn:hover {
+  color: #730000 !important;
+  background: #fad9c7;
+  border: 1px solid #730000;
+}
+
+.gather-link {
+  color: #e50038 !important;
+  transition: all 0.5s !important;
+  display: inline-block;
+}
+
+.gather-link:hover {
+  color: #e50038 !important;
+}
+
+.gather-link::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #e50038;
+  transition: 300ms;
+}
+
+.gather-link:hover::after {
+  width: 100%;
+}
+
+.gather-img > a > img {
+  width: 100% !important;
+  transition: all 0.5s !important;
+}
+
+.gather-img > a > img:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
 footer {
   font-family: "Marmelad", sans-serif;
   background: url(footer.svg);
@@ -228,6 +284,8 @@ footer {
 .agenda-content {
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.stream-toggler:hover,
 .agenda-content:hover,
 .news-block:hover {
   cursor: pointer;
@@ -267,6 +325,7 @@ footer {
 
 .talk-title,
 .talk-day {
+  font-family: "Marmelad", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -385,6 +444,10 @@ body > footer > div:nth-child(2) > li {
 
 .fade {
   transition: all 0.5s !important;
+}
+
+.home-order-2 {
+  z-index: 500 !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -603,8 +666,9 @@ body > footer > div:nth-child(2) > li {
   }
   .home-order-2 {
     position: absolute;
-    margin-left: 30vw;
-    margin-top: 10vh;
+    margin-left: -45vw;
+    margin-top: 10vh !important;
+    width: 500px !important;
   }
   .home-order-3 {
     position: absolute;
@@ -622,8 +686,8 @@ body > footer > div:nth-child(2) > li {
   }
 }
 
-@media only screen and (max-width:360px){
-  #home > div.col-lg.home-order-2.brown-text > div > div.lh-lg{
-    font-size: 29px!important;
+@media only screen and (max-width: 360px) {
+  #home > div.col-lg.home-order-2.brown-text > div > div.lh-lg {
+    font-size: 29px !important;
   }
 }
