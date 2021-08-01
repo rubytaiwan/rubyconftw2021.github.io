@@ -209,8 +209,8 @@
 
 - id: 19
   day: 2
-  time: 14:00 pm
-  end: 14:40 pm
+  time: 13:30 pm
+  end: 14:10 pm
   agenda: 8
   subtitle: "用 mruby 來寫跨平台工具"
   title_main: "Making Multi-platform Tool With mruby"
@@ -231,14 +231,14 @@
 
 - id: 20
   day: 2
-  time: 14:40 pm
-  end: 14:50 pm
+  time: 14:10 pm
+  end: 14:20 pm
   title: Break
 
 - id: 21
   day: 2
   time: 14:50 pm
-  end: 15:30 pm
+  end: 15:00 pm
   agenda: 9
   subtitle: "2021 年 Ruby 高並行程式指北"
   title_main: "Ruby High Concurrent Programming in 2021"
@@ -263,14 +263,14 @@
 
 - id: 22
   day: 2
-  time: 15:30 pm
-  end: 15:40 pm
+  time: 15:00 pm
+  end: 15:10 pm
   title: Break
 
 - id: 23
   day: 2
-  time: 15:40 pm
-  end: 16:20 pm
+  time: 15:10 pm
+  end: 15:50 pm
   agenda: 9
   subtitle: "以 LINE BOT 和爬蟲聊寫程式技巧中的「巧」"
   title_main: "Talk the \"tricks\" of programming skill with the LINE Bot and the crawl"
